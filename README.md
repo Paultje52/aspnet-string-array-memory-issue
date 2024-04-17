@@ -20,11 +20,11 @@ public IEnumerable<string> Memory()
 }
 ```
 
-The garbage collector should free the memory when I'm done with the request. However, the memory keeps climbing (see screenshot).
+The garbage collector should free the memory when I'm done with the request. However, the memory keeps climbing (see screenshot). <br />
 ![image](https://github.com/dotnet/aspnetcore/assets/31313717/0cd74f37-73e6-4fc8-9f58-fb99f817e96d)
 
 ## Expected behaviour
-When writing a simple console application, the memory falls back to a level you can expect (see screenshot). This code is located in [`ConsoleApp/Program.cs`](./ConsoleApp/Program.cs).
+When writing a simple console application, the memory falls back to a level you can expect (see screenshot). This code is located in [`ConsoleApp/Program.cs`](./ConsoleApp/Program.cs). <br />
 ![image](https://github.com/dotnet/aspnetcore/assets/31313717/0560b360-81ba-4631-986c-3300272fc2bd)
 ```cs
 while (true)
